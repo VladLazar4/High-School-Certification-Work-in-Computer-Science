@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Insula Ammouliani</title>
+		</head>
+
+		<body>
+			<div id="page">
+              <div class="topNaviagationLink"><a href="index.html">Acasa</a></div>
+              <div class="topNaviagationLink"><a href="istorie.html">Istorie</a></div>
+              <div class="topNaviagationLink"><a href="plaje.html">Plaje</a></div>
+              <div class="topNaviagationLink"><a href="traditii.html">Traditii</a></div>
+              <div class="topNaviagationLink"><a href="hoteluri.html">Hoteluri</a></div>
+            </div>
+            <div class="contentBox">
+            <div class="innerBox">
+            <div class="contentText">
+            <br><h1><u>Rezervari</u></h1><br>
+            
+            <h2>Date personale</h2><br>
+            <form action="hotel.php" method="POST">
+            Nume: &emsp;	<input type=text name="nume" size=20 value="">
+			<br><br>
+			Prenume:		<input type=text name="prenume" size=20 value="">
+			<br><br>
+			Telefon: &emsp;	<input type=text name="telefon" size=20 value="">
+			<br><br>
+			Email: &emsp;	<input type=text name="email" value="">
+			<br><br> Data rezervarii:<br>
+			De la:&emsp;&emsp;&nbsp;<input type=date name="data_inceput" value=""><br>
+			Pana la: &emsp;			<input type=date name="data_final" value="">
+			<br><br>
+			Sunteti de acord cu prelucrarea datelor cu caracter personal?<br>
+			<input type=radio name="prelucrare_date" value="simpla" checked>Da
+			<br>
+			<input type=radio name="prelucrare_date" value="dubla">Nu
+			<br><br>
+			
+			<h2>Hotel</h2> 
+            <select size="1" name="hotel">
+                <option value="Agionissi Resort">Agionissi Resort</option>
+                <option value="Sunrise Hotel">Sunrise Hotel</option>
+                <option value="Gallery Apartments">Gallery Apartments</option>
+                <option value="Ammou Area">Ammou Area</option>
+                <option value="Aloe Apartments Ammouliani">Aloe Apartments Ammouliani</option>
+                <option value="Olive Bay Hilltop Apartments">Olive Bay Hilltop Apartments</option>
+                <option value="Thalassa Hotel">Thalassa Hotel</option>
+                <option value="Pansion Limanaki">Pansion Limanaki</option>
+                <option value="Villa Paradise">Villa Paradise</option>
+                <option value="Villa Chara">Villa Chara</option>
+            </select>
+            <br><br>
+			<h2>Tipul camerei</h2>
+			<input type=radio name="camera" value="simpla" checked>Camera simpla
+			<br>
+			<input type=radio name="camera" value="dubla">Camera dubla
+			<br> 
+			<input type=radio name="camera" value="apartament">Apartament				
+			<br><br>
+			
+			<h2>Tipul de masa</h2>
+			<select size="1" name="masa">
+                <option value="Fara masa">Fara masa</option>
+                <option value="Mic dejun">Mic dejun</option>
+                <option value="Pranz">Pranz</option>
+                <option value="Cina">Cina</option>
+                <option value="Toate mesele">Toate mesele</option>
+            </select>
+			<br><br>
+			<h2>Alte observatii</h2>
+			<textarea rows=3 name="obs" cols="28" value=""></textarea></font>
+			<br><br>	 
+			<font face="Calibri">	 
+			    <input type=submit value="Trimite rezervare">&emsp;<input type=reset value="Sterge">
+			</font>	
+			<br>
+			</p>	
+		</form>
+     </div>
+            </div></div></div>
+			<div id="text_home">
+			</div>
+		</section>
+    </div>
+</body>
+</html>
